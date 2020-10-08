@@ -17,10 +17,7 @@ Example:
 ...
 """
 
-count = 0
-
-a = int(input("enter a number: "))
-
-while count < 20  :
-    count = count + 1
-    print(count)
+x = 0
+while x < 20 :
+    x = x + 2
+    print (x)
