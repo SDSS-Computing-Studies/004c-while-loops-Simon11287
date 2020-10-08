@@ -14,21 +14,16 @@ Example:
 1 1 2 3 5 ...
 """
 
-
-numberofterms = int(input("how many terms? "))
-count = 0
-n1, n2 = 0, 1
-
-if numberofterms<=0 :
-    print("enter a integer")
-elif numberofterms == 1 :
-    print("Print the sequence up to" ,numberofterms,":")
-else : 
-    print("Fibonacci sequence")
-while count < numberofterms:
+if nterms <= 0:
+   print("Please enter a positive integer")
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
        print(n1)
        nth = n1 + n2
-       # update values
        n1 = n2
        n2 = nth
        count += 1
