@@ -15,10 +15,8 @@ outputs:
 Access granted
 Access denied
 """
-
 name = ""
 password = ""
-count = 0
 
 while name != "admin":
     password != "12345"
@@ -26,9 +24,8 @@ while name != "admin":
     password = input("enter your password: ")
     if name != "admin":
         print("  Access denied")
-
     elif password != "12345":  
         if password != "12345":
          print("access denied")
-        else  :
+        else :
          print("Access granted")
