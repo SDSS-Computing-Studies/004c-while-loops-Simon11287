@@ -14,16 +14,10 @@ Example:
 1 1 2 3 5 ...
 """
 
-if nterms <= 0:
-   print("Please enter a positive integer")
-elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
-   print(n1)
-else:
-   print("Fibonacci sequence:")
-   while count < nterms:
-       print(n1)
-       nth = n1 + n2
-       n1 = n2
-       n2 = nth
-       count += 1
+a=0
+b=1
+while (a<100):
+   b=(a+b)
+   a=(a+b)
+   print(b,end=' ')
+   print(a,end=' ') 
