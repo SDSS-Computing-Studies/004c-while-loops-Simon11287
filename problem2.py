@@ -15,3 +15,12 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+port math 
+a=(input("Enter a number")).strip()
+a=int(a)
+b=a*12
+i=1 
+while b>=(a*i):
+    x=int(a*i)
+    print(x,end=' ')
+    i=(i+1)
